@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;/*horz center*/
+    align-items: center;/*vert center*/
+    background: linear-gradient(rgba(99, 208, 235, 0.493),rgba(250, 247, 247, 0.4));
+}
+
+
+/****navbar****/
+#nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: aqua !important;
+}
+.navbar .nav-item a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+.navbar .nav-item a:hover{
+    border-bottom: 2px solid aqua;
+}
+#signin{
+    background: aqua;
+    border-radius: 15px;
+}
+
+
+/****Home****/
+
+
+#Home{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(images/home.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+#Home h1{
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc;
+}
+
+#Home p{
+    font-size: 18px;
+    color: #ccc;
+}
+#Home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.find{
+    background: aqua !important;
+    color: #000 !important;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+}
+
+/*****About***/
+
+
+#about{
+    padding: 50px 0px 0px 0px;
+}
+#about-img{
+    padding-left: 10%;
+}
+#about h1{
+    font-size: 25px;
+    font-weight: 800;
+}
+.abt{
+    text-align: justify;
+}
+
+/******Service****/
+
+#service h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.card{
+    box-shadow: 10px 20px 10px rgba(0,0,0,0.3),
+                inset 4px 4px 10px #ccc;
+    border-radius: 20px !important;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,0.3),
+                inset -4px -4px 10px #ccc;
+    transition: .2s;
+}
+
+
+/****Contact Us****/
+
+
+#contact img{
+    height: 100%;
+}
+.box{
+    width: 80% !important;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+
+
+/******footer***/
+
+
+footer{
+    height: 30px;
+    width: 101.9%;
+    background: rgba(0,0,0,0.8);
+    margin: -30px;
+    text-align: center;
+    color: #ccc;
+    padding: 3px;
+}
+
+
+/******chatbot****/
+.chat_icon{
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    font-size: 80px;
+    color: #000;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
